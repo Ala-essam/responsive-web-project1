@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <a class="nav-link" href="#Introduction_to_JavaScript">Introduction to JavaScript</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction_to_JavaScript">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile scripting language primarily used for web development.</p>
+      <p>It can manipulate the DOM, handle events, and communicate with servers asynchronously.</p>
+      <p>JavaScript is supported by all modern browsers.</p>
+      <ul>
+        <li>Client-side scripting</li>
+        <li>Dynamic web content</li>
+        <li>Interactive elements</li>
+      </ul>
+      <code>console.log("Hello, world!");</code>
+    </section>
+
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>Variables store data that can be used and manipulated in your program.</p>
+      <p>Data types include numbers, strings, booleans, objects, and arrays.</p>
+      <ul>
+        <li>var</li>
+        <li>let</li>
+        <li>const</li>
+      </ul>
+      <code>let name = "Misha";</code>
+      <code>const age = 22;</code>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code that perform a specific task.</p>
+      <p>They can take parameters and return values.</p>
+      <ul>
+        <li>Function declaration</li>
+        <li>Function expression</li>
+        <li>Arrow function</li>
+      </ul>
+      <code>function greet(name) { return `Hello ${name}`; }</code>
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+      <p>Loops allow you to execute a block of code multiple times.</p>
+      <p>Common loop types include for, while, and do-while loops.</p>
+      <ul>
+        <li>for</li>
+        <li>while</li>
+        <li>do-while</li>
+      </ul>
+      <code>for(let i = 0; i < 5; i++) { console.log(i); }</code>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The Document Object Model (DOM) represents the page structure.</p>
+      <p>JavaScript can dynamically change elements, attributes, and styles.</p>
+      <ul>
+        <li>document.getElementById()</li>
+        <li>document.querySelector()</li>
+        <li>element.style</li>
+      </ul>
+      <code>document.getElementById("demo").innerHTML = "Hello!";</code>
+    </section>
+  </main>
+
+</body>
+</html>
